@@ -13,6 +13,7 @@ const TrackTeamPlaylist = () => {
             allowfullscreen="" 
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
             loading="lazy"
+            title='TrackTeam Spotify Top Track Music Player'
             className='w-full md:max-w-6xl md:h-96'
         >
         </iframe>

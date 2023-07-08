@@ -1,18 +1,17 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import {AiOutlineClose} from 'react-icons/ai'
-import { Link } from 'react-router-dom';
-import About from '../Pages/About';
 
 const NavbarSideMenu = ({handleSideMenu}) => {
   return (
     <>
         <motion.div 
-            className='fixed bg-gradient-to-r from-secondary to-transparent h-screen w-full z-40'
+            className='fixed bg-gradient-to-r from-secondary to-transparent h-screen w-full z-40 top-0'
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0}}
             transition={{ duration: 0.2 }}
             exit={{ opacity: 0, transition: {duration: 0.3 } }}
+            onClick={() => handleSideMenu()}
         >
             <motion.nav
                 className='fixed flex flex-col space-y-7 right-0 w-[50%] h-screen z-20 bg-secodaryBg justify-center items-center text-white'

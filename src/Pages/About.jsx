@@ -16,7 +16,7 @@ const About = () => {
         >
             <img 
                 src={TrackTeamLogo} 
-                alt="TrackTeam Logo" 
+                alt="TrackTeam" 
                 className='w-full max-w-2xl'
             />
         </div>
@@ -43,9 +43,9 @@ const About = () => {
                     <h2 className='text-4xl font-extrabold text-secondary italic'>PRESS PHOTOS</h2>
                     <div className='w-1/5 text-secondary border-t-8 border-secondary relative left-0'></div>
                     <div className='flex flex-col lg:flex-row space-y-4 space-x-0 lg:space-y-0 lg:space-x-4 mt-4 w-full'>
-                        <img src={PressPhoto} alt="Press Photo" className='w-full lg:w-1/3'/>
-                        <img src={PressPhoto2} alt='Press Photo' className='w-full lg:w-1/3'/>
-                        <img src={PressPhoto3} alt="Press Photo"  className='w-full lg:w-1/3'/>
+                        <img src={PressPhoto} alt="Press" className='w-full lg:w-1/3'/>
+                        <img src={PressPhoto2} alt='Press' className='w-full lg:w-1/3'/>
+                        <img src={PressPhoto3} alt="Press"  className='w-full lg:w-1/3'/>
                     </div>
                 </div>
 

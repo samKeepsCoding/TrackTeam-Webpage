@@ -12,7 +12,7 @@ const Socials = () => {
         <button onClick={() => handleSocialLink("https://instagram.com/trackte.am")}>
             <AiFillInstagram size={25}/>
         </button>
-        <button onClick={() => handleSocialLink("https://youtube.com/@Trackte.am")}>
+        <button onClick={() => handleSocialLink("https://www.youtube.com/@Trackte.am")}>
             <AiFillYoutube size={30}/>
         </button>
         <button onClick={() => handleSocialLink("https://soundcloud.com/trackte_am")}>

@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react';
 import {motion} from 'framer-motion';
 import logo from '../Assets/TrackTeamT.PNG'
-import {AiOutlineInstagram, AiOutlineMenu} from 'react-icons/ai'
+import { AiOutlineMenu} from 'react-icons/ai'
 import NavbarSideMenu from './NavbarSideMenu';
 
 const Navbar = () => {
