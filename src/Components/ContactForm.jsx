@@ -41,7 +41,7 @@ const ContactForm = () => {
             <h1 className='text-secondary font-extrabold text-4xl md:text-9xl max-w-3xl w-full'>OR</h1>
             <h3 className='text-2xl font-extrabold w-full max-w-3xl'>CONTACT <span className='text-secondary'>US</span> HERE</h3>
             <p className='text-lg font-bold w-full max-w-3xl uppercase'>
-                <span className='text-secondary'>For</span> booking, sync licensing, PR, etc...
+                For <span className='text-secondary'>BEATS</span>, sync licensing, partnerships, etc...
             </p>
             <div className='w-full max-w-3xl flex flex-col md:flex-row justify-center items-center rounded'>
                 <div className='flex flex-col text-start w-full mt-3 p-3'>

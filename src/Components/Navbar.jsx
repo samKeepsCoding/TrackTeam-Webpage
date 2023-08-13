@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <>
         <motion.header
-            className='flex flex-row justify-center items-center px-8 w-full bg-black sticky z-30 shadow-white border'
+            className='flex flex-row justify-center items-center px-8 w-full bg-black sticky z-30 shadow-white'
             initial='open text-white'
             animate={navVisible ? 'open' : 'closed'}
             variants={variants}
