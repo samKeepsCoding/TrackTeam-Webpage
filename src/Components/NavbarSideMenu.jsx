@@ -39,12 +39,12 @@ const NavbarSideMenu = ({handleSideMenu}) => {
                             ABOUT
                         </div>
                     </a>
-                    <a href="/about">
+                    <a href="/blog">
                         <div className='sideBar-links'>
                             BLOG
                         </div>
                     </a>
-                    <a href="/about">
+                    <a href="/products/">
                         <div className='sideBar-links'>
                             STORE
                         </div>

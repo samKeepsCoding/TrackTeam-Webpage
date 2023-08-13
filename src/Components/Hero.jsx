@@ -1,6 +1,8 @@
 import React from 'react';
 import HeroImg from '../Assets/HeroDemo.jpg';
 
+
+
 const Hero = () => {
   return (
     <>
@@ -18,12 +20,14 @@ const Hero = () => {
                     <p>X</p>
                     <p>RENO BASQUIAT</p>
                 </div>
-                <button
-                    className='mt-8  py-3 border-secondary border font-bold bg-secodaryBg 
-                    text-white text-semibold px-3 shadow-sm hover:bg-secondary duration-150'
-                >
-                    LISTEN HERE
-                </button>
+                <a href="https://soundcloud.com/trackte_am">
+                    <button
+                        className='mt-8  py-3 border-secondary border font-bold bg-secodaryBg 
+                        text-white text-semibold px-3 shadow-sm hover:bg-secondary duration-150'
+                    >
+                        LISTEN HERE
+                    </button>
+                </a>
             </div>
         </div>
     </>

@@ -1,13 +1,13 @@
 import React,{useEffect, useState} from 'react';
 import {motion} from 'framer-motion';
 import logo from '../Assets/TrackTeamT.PNG'
-import { AiOutlineMenu} from 'react-icons/ai'
-import NavbarSideMenu from './NavbarSideMenu';
+// import { AiOutlineMenu} from 'react-icons/ai'
+// import NavbarSideMenu from './NavbarSideMenu';
 
 const Navbar = () => {
     const [navVisible, setNavVisible] = useState(true);
     const [prevScrollPos, setPrevScrollPos]= useState(0);
-    const [sideMenu, setSideMenu] = useState(false);
+    // const [sideMenu, setSideMenu] = useState(false);
 
 
     const variants = {
@@ -30,15 +30,15 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll)
         }, [prevScrollPos])
 
-    const handleSideMenu = () => {
-        setSideMenu(!sideMenu)
-        console.log(sideMenu)
-    }
+    // const handleSideMenu = () => {
+    //     setSideMenu(!sideMenu)
+    //     console.log(sideMenu)
+    // }
 
   return (
     <>
         <motion.header
-            className='flex flex-row justify-between items-center px-8 w-full bg-black sticky z-30 shadow-white'
+            className='flex flex-row justify-center items-center px-8 w-full bg-black sticky z-30 shadow-white border'
             initial='open text-white'
             animate={navVisible ? 'open' : 'closed'}
             variants={variants}
@@ -46,7 +46,7 @@ const Navbar = () => {
         >
             <img src={logo} alt="Logo" className='max-w-[4rem]' />
 
-            <ul className='hidden md:flex justify-center space-x-24 text-white w-full font-bold italic'>
+            {/* <ul className='hidden lg:flex justify-center space-x-24 text-white w-full font-bold italic'>
                 <li>
                     <a href="/">
                         HOME
@@ -63,7 +63,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="/contact">
+                    <a href="/contact/">
                         CONTACT
                     </a>
                 </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
                         STORE
                     </a>
                 </li>
-            </ul>
+            </ul> */}
             {/* <div className='ml-auto hidden lg:flex justify-center items-center space-x-3'>
                 <a 
                     href="https://www.instagram.com/trackteamatl/?hl=en"
@@ -85,7 +85,7 @@ const Navbar = () => {
                     />
                 </a>
             </div> */}
-            <button
+            {/* <button
             onClick={() => handleSideMenu()} 
             className='flex lg:hidden'
             >
@@ -95,12 +95,12 @@ const Navbar = () => {
                 color='white' 
                 className='cursor-pointer'
             />
-            </button>
+            </button> */}
 
         </motion.header>
-        {sideMenu ? (
+        {/* {sideMenu ? (
             <NavbarSideMenu handleSideMenu={value => setSideMenu(value)}/>
-        ): null}
+        ): null} */}
     </>
 
   )

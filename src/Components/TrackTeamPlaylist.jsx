@@ -4,6 +4,7 @@ const TrackTeamPlaylist = () => {
   return (
     <div className='flex flex-col justify-center items-start space-y-3 w-full p-8 relative'>
         <h1 className='text-start flex-wrap w-full text-3xl md:text-7xl font-extrabold text-secondary'>MORE FROM TRACKTEAM </h1>
+        {/* Line */}
         <div className='w-1/4 text-secondary border-t-8 border-secondary relative left-0'></div>
         <iframe 
             style={{borderRadius:"12px"}} 
