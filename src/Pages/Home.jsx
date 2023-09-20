@@ -7,12 +7,14 @@ import Socials from '../Components/Socials';
 import ContactForm from '../Components/ContactForm';
 import { ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.min.css';
+import VideoBG from '../Components/VideoBG';
 
 const Home = () => {
   return (
     <>
 
-      <Hero/>
+      {/* <Hero/> */}
+      <VideoBG/>
       <ToastContainer
       position="top-right"
       autoClose={5000}

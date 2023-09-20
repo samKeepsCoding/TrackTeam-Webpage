@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroImg from '../Assets/HeroDemo.jpg';
+import VideoBG from './VideoBG';
 
 
 
@@ -30,6 +31,7 @@ const Hero = () => {
                 </a>
             </div>
         </div>
+        
     </>
   )
 }
